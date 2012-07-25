@@ -1,4 +1,5 @@
 class Greeter
+	attr_accessor :name
 	def initialize(name = "World")
 		@name = name
 	end
